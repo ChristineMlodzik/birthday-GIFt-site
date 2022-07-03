@@ -1,0 +1,98 @@
+body {
+    margin-top: 70px;
+    text-align: center;
+    background: linear-gradient(#3d1d07, rgb(218, 146, 165));
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(215, 73, 90);
+    font-family: 'Cherry Cream Soda', cursive;
+}
+
+#niece {
+    width: 200px;
+    border-radius: 50%;
+    border: rgb(215, 73, 90) 3px solid;
+}
+
+h1 {
+    text-shadow: 0 0 1px #361a07; /*the first zeroes mean NO offset*/
+}
+
+h2, h3 {
+    color: #361a07;
+    text-shadow: 0 0 2px rgb(215, 73, 90);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#header {
+    display: flex; /*turns each element into its own column*/
+    flex-direction: column; /*use instead of text align center*/
+    align-items: center; /*use instead of text align center*/
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: rgb(215, 73, 90) 3px solid;
+    background-image: url("/BalloonBox.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("/moralsupport.gif");
+}
+
+#gift-img-worthy:hover {
+    background-image: url("/notworthy2.gif");
+}
+
+#gift-img-genius:hover {
+    background-image: url("/Genius-new.webp");
+}
+
+#gift-img-badass:hover {
+    background-image: url("/badass1.gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("/cheers2.gif");
+}
+
+footer {
+    padding: 40px 0;
+    color: #3d1d07;
+    font-style: italic;
+}
+
+a:link {
+    color: rgb(215, 73, 90);
+}
+
+a:visited {
+    color: #144f26;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: rgb(39, 58, 197);
+}
